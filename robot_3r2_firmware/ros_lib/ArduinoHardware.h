@@ -42,12 +42,8 @@
 #endif
 
 #if defined(__MK20DX128__) || defined(__MK20DX256__)
-  #if defined(USE_TEENSY_HW_SERIAL)
-    #define SERIAL_CLASS HardwareSerial // Teensy HW Serial
-  #else
-    #include <usb_serial.h>  // Teensy 3.0 and 3.1
-    #define SERIAL_CLASS usb_serial_class
-  #endif
+  #include <usb_serial.h>  // Teensy 3.0 and 3.1
+  #define SERIAL_CLASS usb_serial_class
 #elif defined(_SAM3XA_)
   #include <UARTClass.h>  // Arduino Due
   #define SERIAL_CLASS UARTClass
@@ -69,8 +65,6 @@ class ArduinoHardware {
     {
 #if defined(USBCON) and !(defined(USE_USBCON))
       /* Leonardo support */
-      iostream = &Serial1;
-#elif defined(USE_TEENSY_HW_SERIAL)
       iostream = &Serial1;
 #else
       iostream = &Serial;
