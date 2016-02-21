@@ -1,0 +1,14 @@
+[preface]
+== = Programming Robots Study Group
+
+This part of Programming Robots Study Group at http://www.robotgarden.org/wiki/robotics/[Robot Garden]
+
+This group is for aspiring roboticists.
+
+Robots are coming! Let’s be ready to program them :) This study group is ROS centric. Class material will be based upon Ubuntu 14.04, ROS Indigo and Android. Other operating systems may work but we chose Ubuntu as it is ROS’ supported platform.
+
+We’re targeting a simple, inexpensive platform titled ROS ROV Rev 1. This name is filled with acronyms. Expanding the acronyms leaves you with quite a mouthful: Robot Operating System Remote Operated Vehicle Revision 1.
+
+Our 1st platform was fair but we stated running into problem. {need to expand ??}
+
+So we are Rebooting or ROS ROV REV 2 (really need a better name for our robot) New Name 3R2
