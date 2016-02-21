@@ -58,14 +58,3 @@ namespace ros
 
 ----
 
-[source,cpp]  
-.app.cpp 
----- 
-require 'sinatra'
-
-get '/hi' do # <1>
-  "Hello World!" # <2>
-end
-----
-<1> Hooks `/hi` path when get request
-<2> Returns "Hello World!"
