@@ -111,7 +111,7 @@ void loop() {
            countsLeft, countsRight, errorLeft, last);  
     Serial.println(report);
   }
- //last = 0;
+ last = 0;
     if ( (uint16_t)(millis() - lastMotorTime) >= 2000)
     {
       lastMotorTime = millis();
