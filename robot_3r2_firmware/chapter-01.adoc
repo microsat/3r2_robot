@@ -1,0 +1,26 @@
+== Readme
+
+This is where I keeping my firmware for 3r2 robot.
+
+
+*/ros_lib* to *<arduinosketch>/library*
+
+*   *   ros.h mod:
+
+[source,java]
+----
+//  typedef NodeHandle_<ArduinoHardware> NodeHandle;
+ typedef NodeHandle_<ArduinoHardware, 10, 10, 256, 256> NodeHandle;
+----
+
+*   Build the library yourself
+
+    *   See http://wiki.ros.org/rosserial_arduino/[http://wiki.ros.org/rosserial_arduino/]
+    
+[NOTE]
+====
+*/lib* has a the library I use or was looking at when i was developing my firmware.
+
+*/A-star frimware* is has code i use and play around with while workin on 3r2
+====
+
